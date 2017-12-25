@@ -1,0 +1,15 @@
+* ProjectGuid
+* RootNamespace
+* WindowsTargetPlatformVersion
+* ConfigurationType
+* CharacterSet
+* LinkIncremental = false
+
+<ClCompile>
+* PrecompiledHeader = NotUsing
+* PreprocessorDefinitions = @EXPORT@; noms_collector_logger_service etc..
+* AdditionalIncludeDirectories = @IncludePath@
+<Link>
+* AdditionalLibraryDirectory = @LIBPATH@
+* AdditionalDependencies = @LIBRARY@
+
